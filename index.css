@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Margin */
+    --margin-xxs: .25rem;
+    --margin-xs: .5rem;
+    --margin-s: .75rem;
+    --margin-m: 1rem;
+    --margin-l: 1.25rem;
+    --margin-xl: 1.75rem;
+    --margin-xxl: 2.5rem;
+
+    /* Paddidng */
+    --padding-xxs: .25rem;
+    --padding-xs: .5rem;
+    --padding-s: .75rem;
+    --padding-m: 1rem;
+    --padding-l: 1.25rem;
+    --padding-xl: 1.75rem;
+    --padding-xxl: 2.5rem;
+
+    /* Color */
+    --primary: #fff;
+    --secondary: #000;
+    --tertiary: #111A28;
+
+    /* Font */
+    --font: "Trispace", sans-serif;
+
+    /* Font Size */
+    --font-size-xxs: .25rem;
+    --font-size-xs: .5rem;
+    --font-size-s: .75rem;
+    --font-size-m: 1rem;
+    --font-size-l: 1.25rem;
+    --font-size-xl: 1.75rem;
+    --font-size-xxl: 2.5rem;
+
+    /* Font Wieght */
+    --font-weight-xxs: 100;
+    --font-weight-xs: 200;
+    --font-weight-s: 300;
+    --font-weight-m: 400;
+    --font-weight-l: 500;
+    --font-weight-xl: 600;
+    --font-weight-xxl: 700;
+
+    /* Line Hight */
+    --line-hight-xxs: 0.65rem;
+    --line-hight-xs: 1.1rem;
+    --line-hight-s: 1.35rem;
+    --line-hight-m: 2.4rem;
+    --line-hight-l: 2.5rem;
+    --line-hight-xl: 2.8rem;
+    --line-hight-xxl: 3rem;
+}
