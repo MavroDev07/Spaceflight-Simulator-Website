@@ -28,7 +28,7 @@
     /* Color */
     --primary: #fff;
     --secondary: #000;
-    --tertiary: #111A28;
+    --tertiary: #202d4f;
 
     /* Font */
     --font: "Trispace", sans-serif;
@@ -118,6 +118,9 @@ nav svg {
     cursor: pointer;
 }
 @media(max-width: 650px) {
+    nav {
+        padding: 0px;
+    }
     .links-container {
         flex-direction: column;
         align-items: flex-start;
@@ -153,7 +156,7 @@ nav svg {
         right: 0;
     }
     #sidebar-active:checked ~ #overlay {
-        height: 100%;
+        height: 200vh;
         width: 100%;
         position: absolute;
         top: 0;

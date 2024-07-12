@@ -9,6 +9,8 @@
 </head>
 <body>
 
+    <!-- <label id="overlay" for="sidebar-active"></label> -->
+
     <nav>
         <input type="checkbox" id="sidebar-active">
         <img src="/assets/logo.jpg" alt="The logo of Spaceflight Simulator">
@@ -31,36 +33,34 @@
         </div>
     </nav>
 
-    <section>
+    <section class="hero-section">
+        <div class="text-container">
+            <h1>Launch Your Imagination Beyond the Stars!</h1>
+            <p>Embark on a journey beyond the confines of <br> our planet with Spaceflight Simulator.</p>
+            <a href="/html/about.html">About us</a>
+        </div>
+    </section>
 
-        <div class="section-container">
-
-            <div class="column">
-                <div class="image-container">
-                    <img src="./assets/showcase/build.png" alt="#">
-                </div>
-
-                <div class="image-container">
-                    <img src="./assets/showcase/staging.png" alt="#">
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="image-container">
-                    <img src="./assets/showcase/landing.png" alt="#">
-                </div>
-    
-                <div class="image-container">
-                    <img src="./assets/showcase/launch.png" alt="#">
-                </div>
-            </div>
-
+    <section class="gameplay-section">
+        <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
         </div>
 
-        <div class="link-container">
-            <a href="https://play.google.com/store/search?q=space%20flight%20simulator&c=apps&gl=DE"> <img src="./assets/badges/Google_Play_Badge.png" alt="A button indicating the user to download the game through the Google Play Store"> </a>
-            <a href="https://apple.co/3PaoHJW"> <img src="./assets/badges/App_Store_Badge.svg" alt="A button indicating the user to download the game through the Apple App Store"> </a>
-            <a href="https://store.steampowered.com/app/1718870/Spaceflight_Simulator/"> <img src="./assets/badges/Steam_Badge.png" alt="A button indicating the user to download the game through the Steam Website"> </a>
+        <div class="slider-container">
+            <div class="slider">
+                <img id="slide1" src="./assets/gameplay/build.png" alt="">
+                <img id="slide2" src="./assets/gameplay/launch.png" alt="">
+                <img id="slide3" src="./assets/gameplay/staging.png" alt="">
+                <img id="slide4" src="./assets/gameplay/landing.png" alt="">
+            </div>
+            <div class="slider-navigation">
+                <a href="#slide1"></a>
+                <a href="#slide2"></a>
+                <a href="#slide3"></a>
+                <a href="#slide4"></a>
+            </div>
         </div>
 
     </section>
