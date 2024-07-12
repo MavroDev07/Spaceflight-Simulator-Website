@@ -156,7 +156,7 @@ nav svg {
         right: 0;
     }
     #sidebar-active:checked ~ #overlay {
-        height: 200vh;
+        height: 420vh;
         width: 100%;
         position: absolute;
         top: 0;
