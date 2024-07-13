@@ -284,17 +284,6 @@ footer h3 {
     footer h3 {
         padding-bottom: var(--padding-xs);
     }
-
-
-
-
-
-
-
-
-
-
-
     .section-container {
         margin-top: 90px;
         flex-wrap: wrap;
@@ -338,5 +327,19 @@ footer h3 {
     }
     .download-links-container {
         flex-direction: column;
+    }
+}
+
+
+
+@media(max-width: 650px) {
+    #sidebar-active:checked ~ #overlay {
+        height: 420vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        cursor: pointer;
     }
 }

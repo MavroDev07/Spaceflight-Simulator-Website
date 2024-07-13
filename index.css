@@ -155,13 +155,4 @@ nav svg {
     #sidebar-active:checked ~ .links-container{
         right: 0;
     }
-    #sidebar-active:checked ~ #overlay {
-        height: 420vh;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 9;
-        cursor: pointer;
-    }
 }
