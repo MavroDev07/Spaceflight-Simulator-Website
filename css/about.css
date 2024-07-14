@@ -34,7 +34,7 @@
     flex-direction: column;
 
     width: 100%;
-    height: 12rem;
+    height: 15rem;
     text-align: center;
 
     border-radius: 0.5rem;
@@ -48,7 +48,7 @@
 
 .about-container h1 {
     font-family: var(--font);
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-xl);
     font-weight: var(--font-weight-xl);
     color: var(--primary);
     padding-bottom: var(--padding-m);
@@ -56,68 +56,8 @@
 
 .about-container h3 {
     font-family: var(--font);
-    font-size: var(--font-size-s);
-    font-weight: var(--font-weight-xl);
-    color: var(--primary);
-}
-
-.credits-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    flex-direction: column;
-    gap: 1.5rem;
-
-    width: 100%;
-
-    border-radius: 0.5rem;
-
-    padding: var(--padding-m);
-
-    background-color: var(--tertiary);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
-}
-
-.credits-container h1 {
-    font-family: var(--font);
-    font-size: var(--font-size-l);
-    font-weight: var(--font-weight-xl);
-    color: var(--primary);
-    padding-bottom: var(--padding-xxs);
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    flex-direction: row;
-}
-
-.person {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    flex-direction: column;
-
-    text-align: center;
-
-    padding: 0 var(--padding-m);
-}
-
-.person h3 {
-    font-family: var(--font);
     font-size: var(--font-size-m);
     font-weight: var(--font-weight-xl);
-    color: var(--primary);
-}
-
-.person p {
-    font-family: var(--font);
-    font-size: var(--font-size-s);
-    font-weight: var(--font-weight-l);
     color: var(--primary);
 }
 
@@ -235,29 +175,12 @@ footer h3 {
     }
 
     .about-container h1 {
-        font-size: var(--font-size-l);
+        font-size: var(--font-size-xl);
     }
 
     .about-container h3 {
-        font-size: var(--font-size-s);
+        font-size: var(--font-size-m);
     }
-
-    .credits-container {
-        height: fit-content;
-        gap: 0.8rem;
-
-    }
-
-    .credits-container h1 {
-        font-size: var(--font-size-l);
-    }
-
-    .row {
-        flex-direction: column;
-        gap: 0.8rem;
-    }
-
-
 }
 
 
