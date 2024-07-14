@@ -32,6 +32,10 @@
     gap: 0.5rem;
 }
 
+.sub-tutorial-container iframe {
+    border-radius: 0.5rem;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -120,7 +124,6 @@ footer h3 {
     font-size: var(--font-size-s);
     font-weight: var(--font-weight-m);
     color: var(--primary);
-    opacity: 0.5;
 }
 
 
